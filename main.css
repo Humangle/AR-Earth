@@ -1,0 +1,49 @@
+body {
+	margin: 0px;
+}
+#c {
+	display: block;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background: none;
+}
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#loading .progress {
+    margin: 1.5em;
+    border: 1px solid white;
+    width: 50vw;
+}
+#loading .progressbar {
+    margin: 2px;
+    background: white;
+    height: 1em;
+    transform-origin: top left;
+    transform: scaleX(0);
+}
+div#datatabs {
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: inherit;
+	margin: 5px;
+}
+div.maptab {
+	margin: 5px;
+	padding: 25px;
+	background-color: #0000FF;
+}
+div.maptab:hover {
+	background-color: #0000AA;
+}
