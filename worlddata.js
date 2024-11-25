@@ -113,11 +113,11 @@ let main = () => {
 	const heightSegments = 24;
 	const sphereGeometry = new THREE.SphereGeometry(radius, widthSegments, heightSegments);
 	
-	const EarthDayTexture = loader.load('https://raw.githubusercontent.com/LearningMike/360images/main/8k_earth_daymap.jpg');
-	const EarthNightTexture = loader.load('https://raw.githubusercontent.com/LearningMike/360images/main/8k_earth_nightmap.jpg');
-	const EarthPopulationTexture = loader.load('https://raw.githubusercontent.com/LearningMike/360images/main/8k_popdensity.jpg');
-	const EarthWaterTexture = loader.load('https://raw.githubusercontent.com/LearningMike/360images/main/8k_waterarea.jpg');
-	const EarthSpecularTexture = loader.load('https://raw.githubusercontent.com/LearningMike/360images/main/2k_earth_specular_map.tif');
+	const EarthDayTexture = loader.load('https://raw.githubusercontent.com/Humangle/AR-Earth/refs/heads/main/8k_earth_daymap.jpg');
+	const EarthNightTexture = loader.load('https://raw.githubusercontent.com/Humangle/AR-Earth/refs/heads/main/8k_earth_nightmap.jpg');
+	const EarthPopulationTexture = loader.load('https://raw.githubusercontent.com/Humangle/AR-Earth/refs/heads/main/8k_popdensity.jpg');
+	const EarthWaterTexture = loader.load('https://raw.githubusercontent.com/Humangle/AR-Earth/refs/heads/main/8k_waterarea.jpg');
+	const EarthSpecularTexture = loader.load('https://raw.githubusercontent.com/Humangle/AR-Earth/refs/heads/main/2k_earth_specular_map.tif');
 	renderer.initTexture(EarthDayTexture);
 	renderer.initTexture(EarthNightTexture);
 	renderer.initTexture(EarthPopulationTexture);
